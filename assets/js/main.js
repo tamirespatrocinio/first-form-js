@@ -10,7 +10,7 @@ resposta = confirm("Deseja responder o formulário?")
   window.document.getElementById('name').value = msg
   window.document.getElementById('surname').focus()
   
-/*****************************slide photo*****************************/
+/******************************slide photo******************************/
 let images = ['bday.jpg','dream.jpg','time.png','travel.jpg',
 'music01.jpg','food.jpg','books.jpg','sunset.jpg']
 
@@ -36,7 +36,7 @@ arrows.forEach(function(arrow){
     })
 })
 
-/*****************************Font*****************************/
+/**********************************Font**********************************/
 window.onload = function() {
     var elementBody = document.querySelector('body');
     var elementBtnIncreaseFont = document.getElementById('increase-font');

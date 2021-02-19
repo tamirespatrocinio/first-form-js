@@ -16,7 +16,7 @@ Desenvolver aplicação em JavaScript com os seguintes requisitos:
 - CSS
 
 ## Preview:
-![form](https://user-images.githubusercontent.com/73259410/108542050-fc2d1680-72c1-11eb-937c-da7598a7c23f.png)
+![form](https://user-images.githubusercontent.com/73259410/108551977-731cdc00-72cf-11eb-99b9-c0fca0ee57f4.png)
 
 
 #### Obrigada pela visita!

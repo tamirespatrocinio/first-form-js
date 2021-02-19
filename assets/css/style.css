@@ -136,11 +136,11 @@ a{
 /*button*/
 button{
     position: absolute;
-    left: 83%;
+    left: 82%;
     height: 25px;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
-    font-size: 1px;
+    font-size: 1em;
     letter-spacing: 0.1rem;
     background-color: #59F0BB; 
     border-radius: 8px;
@@ -160,10 +160,10 @@ button:active{
 
 #increase-font{
     position: absolute;
-    left: 77%;
+    left: 74%;
 }
 
 #decrease-font{
     position: absolute;
-    left: 80%;
+    left: 78%;
 }

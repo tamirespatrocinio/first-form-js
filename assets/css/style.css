@@ -1,0 +1,168 @@
+body, h1, h2, p, ul, li,a{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Nunito",Helvetica,Arial;
+    color: #222222;
+}
+
+
+.header-aces{
+    background-color: #000000;
+}
+
+.headeraces{
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.wrapper-info h1{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+  
+  /*formatação dos inputs*/
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 40%;
+    padding: 10px;
+}
+  
+  /*formatação da área msg*/
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+}
+  
+.wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    background: #59F0BB;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wrapper .btn input[type="reset"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    background: #59F0BB;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+/*img*/
+#canvas{
+    position: absolute;
+    top: 28%;
+    left:53%;
+    height: 400px;
+    width: 600px;
+    border: 2px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 35px;
+    box-shadow: 4px 4px 10px rgb(63, 60, 60); 
+    flex-wrap: wrap;
+    display: flex;   
+}
+
+.arrow{
+    position: relative;
+    
+}
+
+/*button*/
+button{
+    position: absolute;
+    left: 83%;
+    height: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    font-size: 1px;
+    letter-spacing: 0.1rem;
+    background-color: #59F0BB; 
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 2px 2px 6px #000;    
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    top: 5px;
+    box-shadow: none;
+}
+
+#increase-font{
+    position: absolute;
+    left: 77%;
+}
+
+#decrease-font{
+    position: absolute;
+    left: 80%;
+}

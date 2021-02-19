@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Atividade Final de JavaScript</title>
+</head>
+<body>
+<header>
+    <div class="header-aces">
+        <div class="headeraces">
+            <button onclick="accessibility()">Acessibilidade</button>
+            
+            <div class="font">
+            <button class="btn-mais" name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button class="btn-menos" name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+            </div>
+        </div>
+    </div>
+</header>
+    <div id="canvas">
+        <div class="arrow"><img id="left" src="assets/images/arrow-left.png" class="image"></div>
+        <div class="arrow"><img id="right" src="assets/images/arrow-right.png" class="image"></div>
+    </div>
+
+    <section class="wrapper" id="wrapper">      
+        <div class="wrapper-info">        
+            <h1>Contact us</h1>           
+                <div id="error_message"></div>
+
+                    <form class="form-container" id="formulario" action="" name="formulario" onsubmit="return validate()">
+                
+                        <div class="input_field">
+                            <input type="text" placeholder="Nome" id="name">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="Sobrenome" id="surname">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="Phone" id="phone">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="E-mail" id="email">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="Endereço" id="address">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="Cidade" id="city">
+                        </div>
+            
+                        <div class="input_field">
+                            <input type="text" placeholder="Assunto" id="subject">
+                        </div>
+            
+                        <div class="input_field">
+                            <textarea placeholder="Mensagem" id="message"></textarea>
+                        </div>
+            
+                        <div class="btn">
+                            <input type="submit">
+                        </div> 
+            
+                        <div class="btn">
+                            <input type="reset" value="limpar">
+                        </div>          
+                </form>
+            </div>
+    </section>
+       
+    <script src="assets/js/validacao.js"></script>
+    <script src="assets/js/main.js"></script> 
+
+</body>
+</html>

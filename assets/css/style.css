@@ -101,6 +101,7 @@ a{
 
 #error_message{
     margin-bottom: 20px;
+    width: 40%;
     background: #fe8b8e;
     padding: 0px;
     text-align: center;
